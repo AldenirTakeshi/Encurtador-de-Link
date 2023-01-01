@@ -40,3 +40,8 @@ body {
   border-radius: 50px;
   padding: 10px 40px;
 }
+.btn:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: rgb(1, 72, 1);
+}
