@@ -1,5 +1,5 @@
 // Colocar APIKEY do rebrandly
-const ApiKey = "";
+const ApiKey = "89a46114bba94633ac6bcf24f318f24a";
 
 const encurtar = () => {
   let url = document.getElementById("input-url").value;
@@ -24,7 +24,6 @@ const encurtar = () => {
   })
     .then((res) => res.json())
     .then((json) => {
-      console.log(json);
       let inputURL = document.getElementById("input-url");
       inputURL.value = json.shortUrl;
     });
