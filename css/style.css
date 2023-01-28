@@ -4,16 +4,6 @@
   border: 0;
   box-sizing: border-box;
 }
-#header {
-  background-color: black;
-  min-height: 60px;
-  min-width: 100vw;
-}
-#footer {
-  background-color: black;
-  min-height: 60px;
-  min-width: 100vw;
-}
 body {
   background: rgb(2, 2, 52);
   font-family: "Open Sans", sans-serif;
